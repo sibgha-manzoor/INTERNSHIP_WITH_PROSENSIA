@@ -1,0 +1,44 @@
+Some Types of Error in Python:
+
+SyntaxError: 
+This occurs when the parser encounters a syntax error in the code. 
+For example, missing a colon at the end of a function definition.
+
+IndentationError: 
+This occurs when the code is not indented correctly. 
+For example, mixing tabs and spaces or inconsistent indentation levels.
+
+TypeError: 
+This occurs when an operation is performed on an object of an inappropriate type. 
+For example, trying to add a string and an integer.
+
+ValueError: 
+This occurs when a function receives an argument of the right type but an inappropriate value. 
+For example, passing a negative number to a function that expects a positive number.
+
+IndexError: 
+This occurs when trying to access an index that is out of the range of a list or a string. 
+For example, accessing the 10th element of a list with only 5 elements.
+
+KeyError: 
+This occurs when trying to access a dictionary with a key that does not exist. 
+For example, trying to get the value of a non-existent key in a dictionary.
+
+AttributeError: 
+This occurs when trying to access an attribute that does not exist for an object. 
+For example, trying to call a method that is not defined for a particular object.
+
+ImportError: 
+This occurs when an import statement fails to find the module definition or when a name cannot be found in the module.
+
+NameError: 
+This occurs when a local or global name is not found. 
+For example, trying to use a variable that has not been defined.
+
+ZeroDivisionError: 
+This occurs when attempting to divide by zero. 
+For example, dividing any number by zero.
+
+FileNotFoundError: 
+This occurs when trying to open a file that does not exist. 
+For example, attempting to open a non-existent file in read mode.
